@@ -75,6 +75,7 @@ $arr = Yaml::parseFile(("C:\Users\Majd\quick_tour\public\organizations.yaml"));
 
 
 ?>
+ <!-- I did just the Facebook Update -->
   <!-- Update Facebook -->
   <form action="index1.php" method="POST">
    Update Facebook : <input type="submit" id="clickies1" name="clickies1" value= "'.$i.'" style="color: buttonface;"/>
