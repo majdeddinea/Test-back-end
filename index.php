@@ -35,11 +35,11 @@ $arr = Yaml::parseFile(("C:\Users\Majd\quick_tour\public\organizations.yaml"));
 
 
    /* This code is to add an organizations */
-  // $arr["organizations"][3]["name"] = "Oracle";
+   $arr["organizations"][3]["name"] = "Oracle";
 
   /* This code is to delete organizations*/
-  // unset($arr["organizations"][2]);
-  // unset($arr["organizations"][3]);
+  unset($arr["organizations"][2]);
+  unset($arr["organizations"][3]);
 
 
 // echo $arr["organizations"][0]["users"][0]["name"];
